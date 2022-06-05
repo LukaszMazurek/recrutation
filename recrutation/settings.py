@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure--4w(sv*)bu(n6)p0x0+jp%z&4-r06+=m_q)j6g6v4gyzsbz33m'
+SECRET_KEY = '*****************************************'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'recrutation.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'danieph8g0e52p',
-        'HOST': 'ec2-34-198-186-145.compute-1.amazonaws.com',
+        'NAME': '**************',
+        'HOST': '**************',
         'PORT': 5432,
-        'USER': 'zyfptsminspdzn',
-        'PASSWORD': '50daca2b4e213664abfd8ab9027f19e7fe9eb91821a32d3bfcf382ffa5ace613'
+        'USER': '**************',
+        'PASSWORD': '**************'
     }
 }
 
