@@ -78,15 +78,14 @@ WSGI_APPLICATION = 'recrutation.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'da322ghu94i9is',
+        'USER': 'nxampywflswsvn',
+        'PASSWORD': 'cee4d55596092c6d34f568d72a7a430dcac59e7a27e655cdabf6517082a85280',
+        'HOST': 'ec2-54-164-40-66.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
-
-import dj_database_url
-db_from_env = dj_database_url.config(conn_max_age=600)
-DATABASES['default'].update(db_from_env)
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
