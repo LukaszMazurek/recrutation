@@ -78,12 +78,12 @@ WSGI_APPLICATION = 'recrutation.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'da322ghu94i9is',
-        'USER': 'nxampywflswsvn',
-        'PASSWORD': 'cee4d55596092c6d34f568d72a7a430dcac59e7a27e655cdabf6517082a85280',
-        'HOST': 'ec2-54-164-40-66.compute-1.amazonaws.com',
-        'PORT': '5432'
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'danieph8g0e52p',
+        'HOST': 'ec2-34-198-186-145.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'USER': 'zyfptsminspdzn',
+        'PASSWORD': '50daca2b4e213664abfd8ab9027f19e7fe9eb91821a32d3bfcf382ffa5ace613'
     }
 }
 
